@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "strip-ansi": "^7.1.0"
+  },
+  "scripts": {
+    "postinstall": "script/bootstrap"
+  }
+}
