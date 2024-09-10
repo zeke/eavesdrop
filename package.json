@@ -1,4 +1,7 @@
 {
+  "name": "eavesdrop",
+  "version": "1.0.0",
+  "description": "A Node.js CLI that makes it easy to run Whisper locally to transcribe your microphone input.",
   "type": "module",
   "dependencies": {
     "strip-ansi": "^7.1.0"
