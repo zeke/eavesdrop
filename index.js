@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import stripAnsi from 'strip-ansi'
 import { spawn } from 'node:child_process'
 

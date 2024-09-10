@@ -3,6 +3,9 @@
   "dependencies": {
     "strip-ansi": "^7.1.0"
   },
+  "bin": {
+    "eavesdrop": "./index.js"
+  },
   "scripts": {
     "postinstall": "script/bootstrap"
   }
