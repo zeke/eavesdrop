@@ -1,6 +1,6 @@
 # Eavesdrop
 
-This is a little Node.js CLI that makes it easy to use [Whisper](https://github.com/ggerganov/whisper.cpp) to transcribe your microphone input.
+A Node.js CLI that makes it easy to run [Whisper](https://github.com/ggerganov/whisper.cpp) locally to transcribe your microphone input.
 
 ## Prerequisites
 
