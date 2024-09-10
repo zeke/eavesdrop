@@ -1,11 +1,21 @@
 #!/bin/bash
 
-# set up local whisper.cpp and download model
+echo "Setting up local whisper.cpp..."
 git clone https://github.com/ggerganov/whisper.cpp
+
+echo "Changing directory to whisper.cpp..."
 cd whisper.cpp
+
+echo "Downloading the base English model..."
 bash ./models/download-ggml-model.sh base.en
+
+echo "Compiling the 'stream' executable..."
 make stream
 
-# install npm deps
+echo "Changing back to the parent directory..."
 cd ..
+
+echo "Installing npm dependencies..."
 npm install
+
+echo "Setup complete!"
