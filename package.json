@@ -10,6 +10,6 @@
     "eavesdrop": "./index.js"
   },
   "scripts": {
-    "postinstall": "script/bootstrap"
+    "postinstall": "bash script/bootstrap"
   }
 }
