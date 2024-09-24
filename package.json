@@ -10,6 +10,11 @@
     "eavesdrop": "./index.js"
   },
   "scripts": {
-    "postinstall": "bash script/bootstrap"
+    "postinstall": "bash script/bootstrap",
+    "test": "npm run lint && node --test test/sanitize.test.js",
+    "lint": "standard --fix"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
   }
 }
